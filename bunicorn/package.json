@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.25",
     "next": "14.1.4",
     "react": "^18.2.0",
     "react-dom": "^18",
-    "router-dom": "^2.2.11"
+    "react-icon": "^1.0.0",
+    "router-dom": "^2.2.11",
+    "tailwind-merge": "^2.2.2"
   },
   "devDependencies": {
     "@types/node": "^20",
