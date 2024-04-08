@@ -1,5 +1,7 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import heroImage from "../../public/images/hero-bg.png"
 import { TypewriterEffect } from "./ui/typewriter-effect";
 
 const HeroSection = () => {
@@ -22,7 +24,7 @@ const HeroSection = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center h-[40rem] ">
+    <div className="flex flex-col items-center justify-center h-[40rem] bg-sky-950">
       <p className="text-neutral-600 dark:text-neutral-200 text-base  mb-10">
         The BEunicorn is aswesome startup to handel your Social media handel and
         website...
