@@ -6,7 +6,7 @@ import Navbar from "@/app/Navbar/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "bUnicorn",
+  title: "BEunicorn",
   description: "Bussines Logic Platform",
 };
 
