@@ -1,3 +1,4 @@
+import FivePage from "@/components/FivePage";
 import Footer from "@/components/Footer";
 import FourthSection from "@/components/FourthSection";
 import HeroSection from "@/components/HeroSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <SecondPage />
       <ThirdSection />
       <FourthSection />
+      <FivePage />
       <Footer />
     </div>
   );

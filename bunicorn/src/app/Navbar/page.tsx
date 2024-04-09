@@ -13,6 +13,7 @@ export default function Page() {
     setIsOpen(!isOpen);
   };
   return (
+    <div className="bg-sky-500 w-full overflow-hidden" >
     <nav className="p-1">
       <div className="flex justify-around">
         <div className="pr-[150px]">
@@ -75,7 +76,7 @@ export default function Page() {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu p-4 w-[300px] h-[60%] bg-gray-50  text-base-content z-50">
+              <ul className="menu p-4 w-[300px] h-[60%] bg-gray-50 rounded-lg text-base-content z-50">
                 {/* Sidebar content here */}
                 <li>
                   <a href="/">Home</a>
@@ -105,5 +106,6 @@ export default function Page() {
         </div>
       </div>
     </nav>
+    </div>
   );
 }
