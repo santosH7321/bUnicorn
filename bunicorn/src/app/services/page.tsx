@@ -1,8 +1,15 @@
+import Footer from '@/components/Footer'
 import React from 'react'
 
 const ServicePage = () => {
   return (
-    <div className='text-center top-1/2 '>This is services page</div>
+    <div className=''>
+    <div className='flex justify-center items-center h-screen w-full bg-sky-600 text-3xl font-bold'>This is services page</div>
+
+
+
+    <Footer />
+    </div>
   )
 }
 

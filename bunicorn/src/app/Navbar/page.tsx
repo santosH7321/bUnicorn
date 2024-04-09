@@ -75,7 +75,7 @@ export default function Page() {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu p-4 w-[260px] h-[65%] bg-base-200 text-base-content">
+              <ul className="menu p-4 w-[300px] h-[60%] bg-gray-50  text-base-content z-50">
                 {/* Sidebar content here */}
                 <li>
                   <a href="/">Home</a>
